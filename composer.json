@@ -14,7 +14,8 @@
         "illuminate/database": "4.*",
         "illuminate/view": "4.*",
         "illuminate/container": "4.*",
-        "diff/diff": "2.0.*@dev"
+        "diff/diff": "2.0.*@dev",
+        "dbdiff/dbdiff": "@dev"
     },
     "require-dev": {
         "phpunit/phpunit": "4.8.*@dev"
