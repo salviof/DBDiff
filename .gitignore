@@ -5,3 +5,8 @@ migration.sql
 .dbdiff
 .DS_Store
 Thumbs.db
+/referencia/*
+/novoBanco/*
+referencia/*
+novoBanco/*
+
