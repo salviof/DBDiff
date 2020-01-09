@@ -1,0 +1,19 @@
+version: '3.3'
+services:
+   dbdiff:
+     image: coletivo_java:dbdiff
+#     volumes:     
+#       - /var/coletivoOpenSource/wordpress/plugins/casa_nova_digital:/var/www/html/wp-content/plugins/casa_nova_digital:z
+   mysqlab:
+     container_name: bancoSBanaliseBanco
+     image: mysql:5.7
+#     volumes:
+#     #        - ~/laboratorioInfraSB./db_wordpress:/var/lib/mysql:Z
+#          restart: always
+     environment:
+       MYSQL_ROOT_PASSWORD: senhaDev#123
+       MYSQL_DATABASE: testes
+       MYSQL_USER: usuarioTeste
+       MYSQL_PASSWORD: senhaDev#123
+
+  
